@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Message Sending Page</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600">
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        font-family: 'Open Sans', sans-serif;
+        background-color: #f9f9f9;
+      }
+      .message {
+        width: 600px;
+        margin: 100px auto;
+        background-color: #fff;
+        border-radius: 10px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        overflow: hidden;
+      }
+      .message-header {
+        background-color: #262626;
+        color: #fff;
+        padding: 20px;
+        text-align: center;
+        font-size: 24px;
+        font-weight: 600;
+      }
+      .message-form {
+        padding: 20px;
+      }
+      .form-group {
+        margin-bottom: 20px;
+      }
+      .form-group:last-child {
+        margin-bottom: 0;
+      }
+      label {
+        display: block;
+        margin-bottom: 5px;
+        font-size: 14px;
+        font-weight: 600;
+        color: #262626;
+      }
+      input[type="text"],
+      textarea {
+        width: 100%;
+        padding: 10px;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+        font-size: 14px;
+        color: #262626;
+      }
+      input[type="text"]:focus,
+      textarea:focus {
+        outline: none;
+        border-color: #4CAF50;
+      }
+      input[type="submit"] {
+        background-color: #4CAF50;
+        color: #fff;
+        border-radius: 5px;
+        border: none;
+        padding: 10px;
+        font-size: 16px;
+        font-weight: 600;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+      }
+      input[type="submit"]:hover {
+        background-color: #3e8e41;
+      }
+      .message-footer {
+        background-color: #f2f2f2;
+        padding: 20px;
+        text-align: center;
+        font-size: 14px;
+        color: #999;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="message">
+      <div class="message-header">
+        write the problem 
+      </div>
+      <div class="message-form">
+        <form action="#" method="post">
+          <div class="form-group">
+            <label for="subject">Error type</label>
+            <input type="text" id="subject" name="subject" placeholder="Enter the error type">
+          </div>
+          <div class="form-group">
+            <label for="message">Detail</label>
+            <textarea id="message" name="message" rows="10" placeholder="Explain your query"></textarea>
+          </div>
+          <div class="form-group">
+            <button>Submit</button>
+          </div>
+          </form>
+          </div>
+          </div>
+  </body>
+</html>
+           
